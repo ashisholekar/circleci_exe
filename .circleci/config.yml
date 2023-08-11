@@ -13,7 +13,6 @@ jobs:
       - image: 3992c463f1a3a190e7ce64217142dc7f3df0896e98ebf631697b9ddc6ecfb67b
     steps:
       - checkout
-      - name: Run Executable
       - run: .\abc.exe
 
 workflows:
@@ -26,3 +25,4 @@ workflows:
           filters:
             branches:
               only: main
+
